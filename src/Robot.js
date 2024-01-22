@@ -8,7 +8,7 @@ const Robot = ()=>{
       const resp = await fatch.json()
       
     }catch(e){
-      
+      console.log(e);
     }
     }
 
