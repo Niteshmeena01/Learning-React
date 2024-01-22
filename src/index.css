@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.heading{
+    color:brown;
+    font-weight: bold;
+    text-shadow:1px 1px 5px black;
+    display: flex;
+    justify-content: center;
+
+}
+.time{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+    text-shadow:2px 2px 2px black;
+    padding-top:100px;
+    font-weight:bold;
+}
