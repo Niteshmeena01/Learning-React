@@ -6,16 +6,19 @@ const Robot = ()=>{
     try{
       const fatch = await fetch('https://jsonplaceholder.typicode.com/posts')
       const resp = await fatch.json()
+      console.log(resp);
       
-    }catch(e){
-      console.log(e);
+    }catch(error){
+     console.log(error);
     }
     }
 
     useEffect(() => {
       fetchData()
+     
     },[]);
   
+    
 
   return (
   <h1>hy</h1>
