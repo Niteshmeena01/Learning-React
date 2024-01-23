@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import App from './App'
-import Robot from './Robot';
-import Counter from './test';
-import Time from './time'
+import MovieCard from './MovieCard';
+import Heading from './Heading';
 
 
 ReactDOM.render(
   <>
-  {/* <Counter/> */}
-    <Time/>
+  <Heading/>
+  <MovieCard/>
   </>
     ,document.getElementById('root'))
 
