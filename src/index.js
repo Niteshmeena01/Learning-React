@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import MovieCard from './MovieCard';
-import Heading from './Heading';
+import App from './App';
+;
 
 
 ReactDOM.render(
   <>
-  <Heading/>
-  <MovieCard/>
+  <App/>
   </>
     ,document.getElementById('root'))
 

@@ -1,5 +1,6 @@
 import React from "react";
 import obj from "./MSdata";
+import Heading from './Heading'
 import "./index.css";
 
 const MovieCard = () => {
@@ -24,10 +25,12 @@ const MovieCard = () => {
      }
      
     
-  return (
-        
+  return (<>
+
+  
+    <Heading/>
        <Cart/>      
-        
+       </>      
   )
 };
 
