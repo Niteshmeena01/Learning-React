@@ -62,16 +62,35 @@
 
 .inputDiv{
     width:100vw;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: ;
+    height:auto;
+    padding-top:100PX;
 
 }
 .centerDiv{
     width:400px;
-    height:300px;
+    height:auto;
     padding:10px;
     border:1px solid black;
+}
+
+.dataBox{
+    width:20%;
+    height:100%;
+    background-color: aqua;
+    border:.5px solid black;
+   float: left;
+}
+
+.form{
+    width:500px;
+    height:300px;
+    border:1px solid black;
+    margin: auto;
+    padding-top:50px;
+    font-size: larger;
+}
+
+.getData{
+    width:100vw;
+    height:200px;
 }
